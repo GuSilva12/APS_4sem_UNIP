@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interface.AltTipos">
+  <grid id="27dc6" binding="AltTipos" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="61ba" class="javax.swing.JMenuBar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ba90b" class="javax.swing.JMenu" binding="menu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <text value="Menu"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c2dad" class="javax.swing.JMenuItem" binding="inicio">
+                <constraints/>
+                <properties>
+                  <text value="Inicio"/>
+                </properties>
+              </component>
+              <component id="69876" class="javax.swing.JMenuItem" binding="visuPoke">
+                <constraints/>
+                <properties>
+                  <text value="Visualizar Pokemons"/>
+                </properties>
+              </component>
+              <component id="8a293" class="javax.swing.JMenuItem" binding="visuTipo">
+                <constraints/>
+                <properties>
+                  <selected value="false"/>
+                  <text value="Visualizar Tipos"/>
+                </properties>
+              </component>
+              <component id="9d226" class="javax.swing.JMenuItem" binding="altPokes">
+                <constraints/>
+                <properties>
+                  <text value="Alterar Pokemons"/>
+                </properties>
+              </component>
+              <component id="8edee" class="javax.swing.JMenuItem" binding="altTipos">
+                <constraints/>
+                <properties>
+                  <text value="Alterar Tipos"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="19972" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="476" height="13"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10"/>
+          <text value="Interface produzida por: Vinicius das Neves Salamene"/>
+        </properties>
+      </component>
+      <tabbedpane id="cddc6" binding="TabAltTipo">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="463c0" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Adicionar"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="88f46" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Nome:"/>
+                </properties>
+              </component>
+              <component id="79f98" class="javax.swing.JTextField" binding="tfNome">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <grid id="1fcd2" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="a5303" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Forças:"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="5eed6" binding="CheckBoxForcasPanel">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="2c4a8" binding="ckForcasPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints/>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </scrollpane>
+                  <component id="7f2f" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Outro:"/>
+                    </properties>
+                  </component>
+                  <component id="acff7" class="javax.swing.JTextField" binding="tfForca">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <grid id="371a6" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="7fbeb" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Fraquezas:"/>
+                    </properties>
+                  </component>
+                  <scrollpane id="86704" binding="CheckBoxFraquezasPan">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <grid id="15055" binding="ckFraquezasPan" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                        <margin top="0" left="0" bottom="0" right="0"/>
+                        <constraints/>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </scrollpane>
+                  <component id="f9881" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Outro:"/>
+                    </properties>
+                  </component>
+                  <component id="8d3b6" class="javax.swing.JTextField" binding="tfFraq">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+              <component id="7bf7d" class="javax.swing.JButton" binding="adicionarButton" default-binding="true">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Adicionar"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="144d7" binding="removeTipo" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Remover"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="11df3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Tipo:"/>
+                </properties>
+              </component>
+              <vspacer id="f711c">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="d5360" class="javax.swing.JComboBox" binding="TiposCBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c42c" class="javax.swing.JButton" binding="removerButton" default-binding="true">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Remover"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

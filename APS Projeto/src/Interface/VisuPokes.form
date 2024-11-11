@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interface.VisuPokes">
+  <grid id="27dc6" binding="VisuPokes" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="a6022" class="javax.swing.JMenuBar" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="7079" class="javax.swing.JMenu" binding="menu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints/>
+            <properties>
+              <text value="Menu"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="b39ec" class="javax.swing.JMenuItem" binding="inicio">
+                <constraints/>
+                <properties>
+                  <text value="Inicio"/>
+                </properties>
+              </component>
+              <component id="ed087" class="javax.swing.JMenuItem" binding="visuPoke">
+                <constraints/>
+                <properties>
+                  <text value="Visualizar Pokemons"/>
+                </properties>
+              </component>
+              <component id="4a5de" class="javax.swing.JMenuItem" binding="visuTipo">
+                <constraints/>
+                <properties>
+                  <selected value="false"/>
+                  <text value="Visualizar Tipos"/>
+                </properties>
+              </component>
+              <component id="3ea03" class="javax.swing.JMenuItem" binding="altPokes">
+                <constraints/>
+                <properties>
+                  <text value="Alterar Pokemons"/>
+                </properties>
+              </component>
+              <component id="635bf" class="javax.swing.JMenuItem" binding="altTipos">
+                <constraints/>
+                <properties>
+                  <text value="Alterar Tipos"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="45ea7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="476" height="13"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="10"/>
+          <text value="Interface produzida por: Vinicius das Neves Salamene"/>
+        </properties>
+      </component>
+      <scrollpane id="73e34" binding="TablePane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+      <grid id="54be8" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b9c03" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Visão Extendida:"/>
+            </properties>
+          </component>
+          <component id="b30f3" class="javax.swing.JComboBox" binding="cbView">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="151" height="30"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="c1fc" class="javax.swing.JButton" binding="visualizarButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Visualizar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
